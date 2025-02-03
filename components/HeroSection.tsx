@@ -7,25 +7,29 @@ import { HiArrowDown } from "react-icons/hi"
 const HeroSection = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
+      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-4 py-15 sm:py-32 md:py-40 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
-            src="/headshot.png"
+            src="/me.jpeg"
             alt=""
-            width={325}
-            height={325}
+            width={305}
+            height={305}
             className="rounded-full shadow-2xl"
           />
         </div>
-        <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Hosna!</h1>
-          <p className="text-lg mt-4 mb-6 md:text-2xl">
+        <div className="md:mt-1 md:w-3/5">
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-5xl">Hi, I&#39;m Mahnoor!</h1>
+          <p className="text-lg mt-4 mb-6 md:text-xl">
             I&#39;m a{" "}
             <span className="font-semibold text-teal-600">
-              Software Engineer{" "}
+              Web Developer{" "}
             </span>
-            based in Los Angeles, CA. Working towards creating software that
-            makes life easier and more meaningful.
+            I am a passionate professional with a strong background in 
+            <span className="font-semibold text-teal-600">
+            {" "} office administration  {" "}
+            </span> 
+            and a keen interest in web development
+            makes life easier and websites that leave a lasting impression.
           </p>
           <Link
             to="projects"

@@ -6,34 +6,50 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Icon Sourcing",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "Icon Sourcing is an e-commerce website designed with the OceanWP theme and Elementor. It includes WhatsApp integration for quick communication also I managed WooCommerce for online sales.",
+    image: "/icon-sourcing-.png",
+    github: "",
+    link: "https://iconsourcing.com/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "Norton Fitness",
+    description:
+      "I designed and developed a website and its theme with Elementor. It includes several pages and content regarding products and services.",
+    image: "/fitness-site.png",
+    github: "",
+    link: "https://nortonfitness.com/",
   },
   {
-    name: "Kator Family Photos",
+    name: "Lang&Co.",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "I developed a custom-coded landing page using HTML, CSS, and JavaScript, designed to meet all the client's business requirements.The coding details and project files are available on my GitHub repository for reference.",
+    image: "/lang-co.jpg",
+    github: "https://github.com/mahnoorjanjua505/Lang-Co-site.git",
+    link: "https://langandco.com/",
+  },
+  {
+    name: "UrbanVogue - Shopify",
+    description: "I develop and manage a Shopify store, customizing the theme, optimizing speed, SEO, and functionality. I handle customer interactions, order processing, and continuously update the store for security and efficiency.",
+    image: "/urban-vogue.jpg",
+    github: "",
+    link: "https://www.urbanvogue.pk/",
+  },
+  {
+    name: "Catering Website",
+    description:
+      "I created a portfolio website for 'MJ Caterings' with five pages, including a blog with four fictional posts. This project helped me enhance my WordPress & Elementor skills. I included sections, content, images, and a video showcasing each part with animations..",
+    image: "/mj-catering.jpg",
+    github: "",
+    link: "https://www.loom.com/share/9ba1842d0e664b1abb4ccac3267038e8?sid=c6bfaebe-3aa5-4786-a679-ebbf4ce3e034",
   },
 ]
 
 const ProjectsSection = () => {
   return (
     <section id="projects">
-      <h1 className="my-10 text-center font-bold text-4xl">
+      <h1 className=" text-center font-bold text-4xl">
         Projects
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
       </h1>
@@ -61,12 +77,12 @@ const ProjectsSection = () => {
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                      <Link href={project.github} target="_blank">
+                      {<Link href={project.github} target="_blank">
                         <BsGithub
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
-                      </Link>
+                      </Link>}
                       <Link href={project.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}
@@ -80,7 +96,7 @@ const ProjectsSection = () => {
             </div>
           )
         })}
-        
+
       </div>
     </section>
   )
