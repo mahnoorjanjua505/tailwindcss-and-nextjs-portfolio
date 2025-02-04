@@ -7,13 +7,13 @@ import { HiArrowDown } from "react-icons/hi"
 const HeroSection = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-4 sm:mt-24 py-15 sm:py-32 md:py-40 md:flex-row md:space-x-4 md:text-left"> 
-        <div className="sm:mt-60 md:mt-2 md:w-1/2">
+      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-4 py-15 sm:py-32 md:py-40 md:flex-row md:space-x-4 md:text-left"> 
+        <div className="md:mt-2 md:w-1/2">
           <Image
             src="/me.jpeg"
             alt=""
-            width={300}
-            height={300}
+            width={200}
+            height={200}
             className="rounded-full shadow-2xl"
           />
         </div>
