@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <section id="home">
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-4 sm:mt-24 py-15 sm:py-32 md:py-40 md:flex-row md:space-x-4 md:text-left"> 
-        <div className="md:mt-2 md:w-1/2">
+        <div className="md:mt-12 md:w-1/2">
           <Image
             src="/me.jpeg"
             alt=""
