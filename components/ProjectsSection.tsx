@@ -6,12 +6,12 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Icon Sourcing",
+    name: "YM Fragrance",
     description:
-      "Icon Sourcing is an e-commerce website designed with the OceanWP theme and Elementor. It includes WhatsApp integration for quick communication also I managed WooCommerce for online sales.",
-    image: "/icon-sourcing-.png",
+      "YM Fragrance is an e-commerce website designed with the Astra theme and Elementor. I integrated WhatsApp  for seamless communication, a sleek black-and-white theme plugin, and optimized SEO for better visibility. Additionally, I set up and managed the store’s content and handled WooCommerce for online sales. ",
+    image: "/ymfragrance.jpg",
     github: "",
-    link: "https://iconsourcing.com/",
+    link: "http://ymfragrance.com/",
   },
   {
     name: "Norton Fitness",
