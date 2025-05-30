@@ -34,7 +34,7 @@ const projects = [
     description: "I develop and manage a Shopify store, customizing the theme, optimizing speed, SEO, and functionality. I handle customer interactions, order processing, and continuously update the store for security and efficiency.",
     image: "/urban-vogue.jpg",
     github: "",
-    link: "https://www.urbanvogue.pk/",
+    link: "https://zarghoon.store/",
   },
   {
     name: "Catering Website",
