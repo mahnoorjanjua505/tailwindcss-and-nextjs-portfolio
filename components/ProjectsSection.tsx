@@ -14,12 +14,12 @@ const projects = [
     link: "http://ymfragrance.com/",
   },
   {
-    name: "Norton Fitness",
+    name: "Fan International",
     description:
-      "I designed and developed a website and its theme with Elementor. It includes several pages and content regarding products and services.",
-    image: "/fitness-site.png",
+      "I designed and developed a website that showcases the portfolio of geology specialists and highlights their professional experience. The site features multiple pages detailing the nature of their work and the services they provide.",
+    image: "/fan-int site.jpg",
     github: "",
-    link: "https://nortonfitness.com/",
+    link: "https://fan-international.com/",
   },
   {
     name: "Lang&Co.",
