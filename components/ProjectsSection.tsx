@@ -6,12 +6,12 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "YM Fragrance",
+    name: "Mehru&M Stationery",
     description:
-      "YM Fragrance is an e-commerce website designed with the Astra theme and Elementor. I integrated WhatsApp  for seamless communication, a sleek black-and-white theme plugin, and optimized SEO for better visibility. Additionally, I set up and managed the store’s content and handled WooCommerce for online sales. ",
-    image: "/ymfragrance.jpg",
+      "Mehru&M Stationery is an e-commerce website designed with the Astra theme and Elementor. I integrated WhatsApp  for seamless communication, and articulated into an perfect aesthetic theme, also optimized SEO for better visibility. Additionally, I set up and managed the store’s content and handled WooCommerce for online sales. ",
+    image: "/mehru&M.jpg",
     github: "",
-    link: "http://ymfragrance.com/",
+    link: "https://mehromstationary.com/",
   },
   {
     name: "Fan International",
