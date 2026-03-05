@@ -39,7 +39,7 @@ const projects = [
   {
     name: "Shopify Beauty Store",
     description: "I developed and designed this Shopify, adding the product line, customer reviews in the theme designing, optimizing speed, SEO, and functionality.",
-    image: "/shopify store.jpg",
+    image: "/kybo page.jpg",
     github: "",
     link: "https://kybo.store/",
   },
