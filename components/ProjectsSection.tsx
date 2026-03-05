@@ -30,7 +30,7 @@ const projects = [
     link: "https://langandco.com/",
   },
   {
-    name: "Shopify Clothing Store",
+    name: "Clothing Store",
     description: "I developed and managed a Shopify store with my team, customizing the theme, optimizing speed, SEO, and functionality. I handle customer interactions, order processing, and continuously update the store for security and efficiency.",
     image: "/shopify store.jpg",
     github: "",
@@ -43,6 +43,14 @@ const projects = [
     github: "",
     link: "https://kybo.store/",
   },
+  {
+    name: "Planting Store Shopify",
+    description: "I built and designed a nice Shopify store from scratch. I added a beautiful range of plants — indoor greenery, succulents, and more — with clear photos and friendly descriptions. It feels welcoming and easy to shop!",
+    image: "/planting store.jpg",
+    github: "",
+    link: "https://hyggecorner.pk/",
+  },
+  
   {
     name: "Catering Website",
     description:
