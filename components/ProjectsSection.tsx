@@ -30,11 +30,18 @@ const projects = [
     link: "https://langandco.com/",
   },
   {
-    name: "Shopify Store",
+    name: "Shopify Clothing Store",
     description: "I developed and managed a Shopify store with my team, customizing the theme, optimizing speed, SEO, and functionality. I handle customer interactions, order processing, and continuously update the store for security and efficiency.",
     image: "/shopify store.jpg",
     github: "",
     link: "https://zarghoon.store/",
+  },
+  {
+    name: "Shopify Beauty Store",
+    description: "I developed and designed this Shopify, adding the product line, customer reviews in the theme designing, optimizing speed, SEO, and functionality.",
+    image: "/shopify store.jpg",
+    github: "",
+    link: "https://kybo.store/",
   },
   {
     name: "Catering Website",
