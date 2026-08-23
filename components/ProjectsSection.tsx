@@ -12,15 +12,8 @@ const projects = [
     image: "/mehru&M.jpg",
     github: "",
     link: "https://mehromstationary.com/",
-  },
-  {
-    name: "Fan International",
-    description:
-      "I designed and developed a website that showcases the portfolio of geology specialists and highlights their professional experience. The site features multiple pages detailing the nature of their work and the services they provide.",
-    image: "/fan-int site.jpg",
-    github: "",
-    link: "https://fan-international.com/",
-  },
+  }, 
+  
   {
     name: "Lang&Co.",
     description:
@@ -30,11 +23,12 @@ const projects = [
     link: "https://langandco.com/",
   },
   {
-    name: "Clothing Store",
-    description: "I developed and managed a Shopify store with my team, customizing the theme, optimizing speed, SEO, and functionality. I handle customer interactions, order processing, and continuously update the store for security and efficiency.",
-    image: "/shopify store.jpg",
+    name: "Galway Wool site",
+    description:
+      "I developed a decent farmer-owned Irish cooperative wordpress site dedicated to producing and promoting authentic, native Irish wool from purebred Galway sheep.",
+    image: "/galwaywooljpg",
     github: "",
-    link: "https://zarghoon.store/",
+    link: "https://galwaywool.ie/",
   },
   {
     name: "Shopify Beauty Store",
