@@ -26,7 +26,7 @@ const projects = [
     name: "Galway Wool site",
     description:
       "I developed a decent farmer-owned Irish cooperative wordpress site dedicated to producing and promoting authentic, native Irish wool from purebred Galway sheep.",
-    image: "/galwaywooljpg",
+    image: "/galwaywool.jpg",
     github: "",
     link: "https://galwaywool.ie/",
   },
